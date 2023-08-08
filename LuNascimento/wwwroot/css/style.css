@@ -169,11 +169,11 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffa7c3;
+  color: #FFBDBF;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
-  fill: #ffa7c3;
+  fill: #FFBDBF;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -185,7 +185,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #f7444e;
+  color: #FFBDBF;
 }
 
 .custom_nav-container .navbar-toggler {
