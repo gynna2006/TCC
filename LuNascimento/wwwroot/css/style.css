@@ -132,7 +132,6 @@ a:focus {
 
 .navbar-brand {
   font-family: 'Playfair Display', serif;
-  width: 55px;
 }
 
 .navbar-brand span {
@@ -184,7 +183,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #FFBDBF;
+  color: #fc6267;
 }
 
 .custom_nav-container .navbar-toggler {
