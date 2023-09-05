@@ -22,7 +22,25 @@ namespace LuNascimento.Controllers
             return View();
         }
 
-        
+         public IActionResult Products()
+        {
+            return View();
+        }
+
+        public IActionResult Monte()
+        {
+            return View();
+        }       
+         public IActionResult Ambientes()
+        {
+            return View();
+        }
+
+         public IActionResult QuemSomos()
+        {
+            return View();
+        }
+    
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

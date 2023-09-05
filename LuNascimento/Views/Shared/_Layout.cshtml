@@ -27,7 +27,7 @@
          <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                  <a class="navbar-brand" asp-action="Index" >
+                  <a class="navbar-brand" ></a><a asp-action="Index"></a>
                      <img width="270" src="~/images/logo.png" alt="#"/>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,35 +36,33 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                      <ul class="navbar-nav">
                         <li class="nav-item active">
-                           <a class="nav-link" href="~/index.html">Home <span class="sr-only">(current)</span></a>
+                           <a class="nav-link" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="~/Views/Products/Index.cshtml">Todos os produtos</a>
+                           <a class="nav-link" asp-action="Products">Produtos</a>
                         </li>
-                       <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">MONTE SEU FRASCO <span class="caret"></span></a>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">MONTE O SEU<span class="caret"></span></a>
                            <ul class="dropdown-menu">
-                              <li><a href="about.html">50ml</a></li>
-                              <li><a href="about.html">100ml</a></li>
-                              <li><a href="about.html">150ml</a></li>
-                              <li><a href="about.html">250ml</a></li>
-                              <li><a href="about.html">300ml</a></li>
+                              <li><a asp-action="">50ml</a></li>
+                              <li><a asp-action="Home">100ml</a></li>
+                              <li><a asp-action="Home">150ml</a></li>
+                              <li><a asp-action="Home">250ml</a></li>
+                              <li><a asp-action="Home">300ml</a></li>
                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">AMBIENTES<span class="caret"></span></a>
                            <ul class="dropdown-menu">
-                              <li><a href="about.html">BANHEIRO</a></li>
-                              <li><a href="testimonial.html">SALA</a></li>
-                              <li><a href="about.html">QUARTO</a></li>
-                              <li><a href="about.html">CARRO</a></li>
-                              <li><a href="about.html">CONSULTÓRIO</a></li>
-
+                              <li><a asp-action="Home">BANHEIRO</a></li>
+                              <li><a asp-action="Home">SALA</a></li>
+                              <li><a asp-action="Home">QUARTO</a></li>
+                              <li><a asp-action="Home">CARRO</a></li>
+                              <li><a asp-action="Home">CONSULTÓRIO</a></li>
                            </ul>
                         </li>
-                        
                         <li class="nav-item">
-                           <a class="nav-link" href="~/blog_list.html">QUEM SOMOS?</a>
+                           <a class="nav-link" asp-action="Quemsomos">QUEM SOMOS?</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="#">
