@@ -100,6 +100,10 @@ a:focus {
   outline: none !important;
   -webkit-box-shadow: none;
           box-shadow: none;
+  color: #f7444e;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #f7444e;
 }
 
 /*header section*/
@@ -353,6 +357,58 @@ a:focus {
   -o-object-position: top right;
      object-position: top right;
 }
+/*end slider section */
+/*start we-help section */
+.we-help-section {
+  padding: 7rem 0; }
+  .we-help-section .imgs-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[27];
+    grid-template-columns: repeat(27, 1fr);
+    position: relative; }
+    .we-help-section .imgs-grid:before {
+      position: absolute;
+      content: "";
+      width: 255px;
+      height: 217px;
+      background-image: url("../images/dots-green.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      -webkit-transform: translate(-40%, -40%);
+      -ms-transform: translate(-40%, -40%);
+      transform: translate(-40%, -40%);
+      z-index: -1; }
+    .we-help-section .imgs-grid .grid {
+      position: relative; }
+      .we-help-section .imgs-grid .grid img {
+        border-radius: 20px;
+        max-width: 100%; }
+      .we-help-section .imgs-grid .grid.grid-1 {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 18;
+        grid-column: 1 / span 18;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 27;
+        grid-row: 1 / span 27; }
+      .we-help-section .imgs-grid .grid.grid-2 {
+        -ms-grid-column: 19;
+        -ms-grid-column-span: 27;
+        grid-column: 19 / span 27;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 5;
+        grid-row: 1 / span 5;
+        padding-left: 20px; }
+      .we-help-section .imgs-grid .grid.grid-3 {
+        -ms-grid-column: 14;
+        -ms-grid-column-span: 16;
+        grid-column: 14 / span 16;
+        -ms-grid-row: 6;
+        -ms-grid-row-span: 27;
+        grid-row: 6 / span 27;
+        padding-top: 20px; }
+/*end we-help section */
+
 
 .product_section .heading_container {
   margin-bottom: 20px;
@@ -912,7 +968,7 @@ a:focus {
     color: #ffffff;
     margin: 0;
     padding: 20px 0;
-    border-top: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(124, 81, 81, 0.2);
 }
 
 .footer_section .footer-info p a {
@@ -974,8 +1030,8 @@ li.nav-item ul li a:hover, li.nav-item ul li a:focus {
 /** footer **/
 
 footer {
-    background: #f8f8f8;
-    padding: 90px 0 70px;
+    background: #fffbfb;
+    padding: 80px 0 50px;
 }
 
 .logo_footer {
@@ -1100,7 +1156,7 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #222;
+    background: #f7444e;
     text-align: center;
     padding: 20px 0;
 }
@@ -1114,12 +1170,12 @@ form input[type="submit"]:focus {
 
 .cpy_ p a {
     margin: 0;
-    color: #f7444e;
+    color: #000000;
     font-size: 15px;
     font-weight: 400;
 }
 
-/* http://kute-themes.com/html/boutique/html/index.html */
+/* http://kute-themes.com/html/boutique/html/index.html 
 https://template.hasthemes.com/noraure/noraure/index.html
-https://preview.hasthemes.com/xoss-preview/xoss/index.html
+https://preview.hasthemes.com/xoss-preview/xoss/index.html */
 
