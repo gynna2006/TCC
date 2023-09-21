@@ -248,6 +248,10 @@ a:focus {
   top: 0;
 }
 
+
+.text-1000 {
+  color: #000000 !important;
+}  
 /*end header section*/
 /* slider section */
 .slider_section {
@@ -433,7 +437,7 @@ a:focus {
 .single_product_list .single_product_content h5 {
   font-weight: 500;
   font-size: 20px;
-  color: #B08EAD;
+  color: #fc6267;
 }
 
 .single_product_list .single_product_content h2 {
@@ -444,7 +448,7 @@ a:focus {
 }
 
 .single_product_list .single_product_content h2 a {
-  color: #4B3049;
+  color: #fc6267;
 }
 
 a {
@@ -464,10 +468,10 @@ a {
   padding: 18px 36px;
   border-radius: 5px;
   background-color: transparent;
-  border: 1px solid #B08EAD;
+  border: 1px solid #fc6267;
   font-size: 15px;
   font-weight: 700;
-  color: #B08EAD;
+  color: #fc6267;
   text-transform: uppercase;
   font-weight: 400;
   -webkit-transition: 0.5s;
@@ -536,7 +540,7 @@ a {
 
 .product_section .box .detail-box h6 {
   margin-top: 10px;
-  color: #002c3e;
+  color: #f7444e;
   font-weight: 600;
 }
 
@@ -651,6 +655,80 @@ a {
   color: #f7444e;
 }
 
+/*quem somos */
+.container {
+    max-width: 960px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.breadcrumb_part .breadcrumb_iner {
+  text-align: center;
+}
+
+.breadcrumb_part {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5938a;
+}
+
+.breadcrumb_part .breadcrumb_iner h2 {
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+} 
+
+.padding_top {
+  padding-top: 100px;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+
+.col-lg-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.about_us .about_us_content h5 {
+  font-size: 20px;
+  color: #fc6267;
+  font-weight: 600;
+}
+
+.about_us .about_us_content h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+  margin: 5px 0 60px;
+  font-weight: 400;
+}
+
+
+
+
+
+/*quem somos end */
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
