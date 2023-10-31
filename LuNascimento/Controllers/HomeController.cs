@@ -27,11 +27,11 @@ namespace LuNascimento.Controllers
             return View();
         }
 
-        public IActionResult Monte()
+        public IActionResult Aromas()
         {
             return View();
         }       
-         public IActionResult Ambientes()
+         public IActionResult Outros()
         {
             return View();
         }

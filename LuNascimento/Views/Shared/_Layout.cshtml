@@ -41,24 +41,17 @@
                         <li class="nav-item">
                            <a class="nav-link" asp-action="Products">Produtos</a>
                         </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">MONTE O SEU<span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                              <li><a asp-action="Products">50ml</a></li>
-                              <li><a asp-action="Products">100ml</a></li>
-                              <li><a asp-action="Products">150ml</a></li>
-                              <li><a asp-action="Products">250ml</a></li>
-                              <li><a asp-action="Products">300ml</a></li>
-                           </ul>
+                        <li class="nav-item">
+                           <a class="nav-link" asp-action="Aromas">Aromas</a>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">AMBIENTES<span class="caret"></span></a>
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">OUTROS<span class="caret"></span></a>
                            <ul class="dropdown-menu">
-                              <li><a asp-action="Products">BANHEIRO</a></li>
-                              <li><a asp-action="Products">SALA</a></li>
-                              <li><a asp-action="Products">QUARTO</a></li>
-                              <li><a asp-action="Products">CARRO</a></li>
-                              <li><a asp-action="Products">CONSULTÓRIO</a></li>
+                              <li><a asp-action="Products">SACHÊ</a></li>
+                              <li><a asp-action="Products">ÁGUA DE LENÇOL</a></li>
+                              <li><a asp-action="Products">HOME SPRAY</a></li>
+                              <li><a asp-action="Products">AROMATIZADOR PARA CARRO</a></li>
+                              <li><a asp-action="Products">SABONETE</a></li>
                            </ul>
                         </li>
                         <li class="nav-item">
@@ -125,9 +118,7 @@
                            </a>
                         </li>
                         <form class="form-inline">
-                           <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                           <i class="fa fa-search" aria-hidden="true"></i>
-                           </button>
+                           
                         </form>
                      </ul>
                   </div>
@@ -149,9 +140,7 @@
                         <a href="#"><img width="270" src="~/images/logo.png" alt="#" /></a>
                       </div>
                       <div class="information_f">
-                        <p><strong>Endereço:</strong> 28 White tower, Street Name New York City, USA</p>
-                        <p><strong>TELEFONE:</strong> +14 98765 3210</p>
-                        <p><strong>EMAIL:</strong> lunascimento@gmail.com</p>
+                        <p><strong>WHATSAPP:</strong> +14 98765 3210</p>
                       </div>
                    </div>
                </div>
@@ -165,25 +154,13 @@
                         <ul>
                            <li><a asp-action="Index">Home</a></li>
                            <li><a asp-action="Products">Nossos Produtos</a></li>
-                           <li><a href="#">Monte o seu</a></li>
-                           <li><a href="#">Ambientes</a></li>
+                           <li><a asp-action="Aromas">Aromas</a></li>
+                           <li><a href="#">Outros</a></li>
                            <li><a asp-action="Quemsomos">Quem somos?</a></li>
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-6">
-                     <div class="widget_menu">
-                        <h3>Account</h3>
-                        <ul>
-                           <li><a href="#">Account</a></li>
-                           <li><a href="#">Checkout</a></li>
-                           <li><a href="#">Login</a></li>
-                           <li><a href="#">Register</a></li>
-                           <li><a href="#">Shopping</a></li>
-                           <li><a href="#">Widget</a></li>
-                        </ul>
-                     </div>
-                  </div>
+         
                      </div>
                   </div>     
                      </div>
