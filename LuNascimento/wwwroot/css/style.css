@@ -722,11 +722,19 @@ a {
   font-weight: 400;
 }
 
-
-
-
-
 /*quem somos end */
+
+.section-top-border {
+  padding: 50px 0;
+  border-top: 1px dotted #eee;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 25px;
+}
+
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
