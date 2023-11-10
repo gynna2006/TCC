@@ -30,7 +30,15 @@ namespace LuNascimento.Controllers
         public IActionResult Aromas()
         {
             return View();
-        }       
+        }
+           public IActionResult Exclusivos()
+        {
+            return View();
+        }
+           public IActionResult Aromaterapia()
+        {
+            return View();
+        }           
          public IActionResult Outros()
         {
             return View();

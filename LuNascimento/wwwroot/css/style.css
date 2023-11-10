@@ -58,14 +58,6 @@ h2 {
     font-weight: bold;
 }
 
-.heading_container h2::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 5px;
-    background: #f7444e;
-    margin: 10px auto 10px;
-}
 
 .heading_container h2 span {
   color: #f7444e;
@@ -436,7 +428,7 @@ a:focus {
 .single_product_list .single_product_content h5 {
   font-weight: 500;
   font-size: 20px;
-  color: #fc6267;
+  color: #000;
 }
 
 .single_product_list .single_product_content h2 {
@@ -467,10 +459,10 @@ a {
   padding: 18px 36px;
   border-radius: 5px;
   background-color: transparent;
-  border: 1px solid #fc6267;
+  border: 1px solid #000000;
   font-size: 15px;
   font-weight: 700;
-  color: #fc6267;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 400;
   -webkit-transition: 0.5s;
@@ -487,6 +479,13 @@ a {
 
 
 /*products*/
+.heading_container h2 {
+  position: relative;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fc6267;
+}
 .product_section .heading_container {
   margin-bottom: 20px;
 }
@@ -734,6 +733,13 @@ p {
   margin-bottom: 1rem;
   font-size: 25px;
 }
+
+h3, .h3 {
+  font-size: 1.75rem;
+  color: #f7444e;
+
+}
+
 
 .arrival_section .heading_container {
   color: #002c3e;
