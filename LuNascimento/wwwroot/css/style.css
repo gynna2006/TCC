@@ -803,9 +803,36 @@ h3, .h3 {
     display: none;
 }
 
+/*Detalhes*/
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
 
+.product-details h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+}
 
+.btn.btn-primary {
+  background: #f7444e;
+  border: 1px solid #f7444e;
+  color: #fff;
+}
 
+.pl-md-5, .px-md-5 {
+  padding-left: 3rem !important;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background: #fff;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+/*fim detalhes*/
 
 /* footer section*/
 .footer_section {
