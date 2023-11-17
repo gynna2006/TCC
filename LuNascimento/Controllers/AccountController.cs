@@ -5,6 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using LuNascimento.ViewModels;
+using System.Net.Mail;
 
 namespace LuNascimento.Controllers;
 
@@ -72,7 +75,7 @@ public class AccountController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Logout()
     {
-        _logger.LogInformation($"Usuário {ClaimTypes.Email} fez logoff");
+      //  _logger.LogInformation($"Usuário {ClaimTypes.Email} fez logoff");
         await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Home");
     }
