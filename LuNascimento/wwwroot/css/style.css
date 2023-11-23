@@ -440,6 +440,7 @@ a:focus {
 
 .single_product_list .single_product_content h2 a {
   color: #fc6267;
+
 }
 
 a {
@@ -617,14 +618,14 @@ a {
 }
 
 .product_section .options .option2 {
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
   color: #ffffff;
 }
 
 .product_section .options .option2:hover {
   background-color: transparent;
-  color: #000000;
+  color: #f7444e;
 }
 
 .product_section .btn-box {
@@ -897,7 +898,8 @@ h4 {
       padding: 10px 30px; }
     .single_blog .blog_content .main_content {
       background-color: #f7444e;
-      padding: 25px 30px; }
+      padding: 25px 30px; 
+      height: 250px;}
       .single_blog .blog_content .main_content .blog_title a {
         font-size: 28px;
         font-weight: 600;
