@@ -43,27 +43,6 @@ namespace LuNascimento.Controllers
         {
             return View();
         }
-         public IActionResult Sache()
-        {
-            return View();
-        }
-         public IActionResult Carro()
-        {
-            return View();
-        }
-         public IActionResult Spray()
-        {
-            return View();
-        }
-         public IActionResult Lencol()
-        {
-            return View();
-        }
-         public IActionResult Sabonete()
-        {
-            return View();
-        }
-
          public IActionResult QuemSomos()
         {
             return View();
