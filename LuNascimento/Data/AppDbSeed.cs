@@ -42,7 +42,7 @@ public class AppDbSeed
                 Nome = "Frasco Quadrado Color",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 1,
-                Foto = "/images/29.png",
+                Foto = "/images/10.png",
                 Preco = 85.00M,
             },
             new() {
@@ -50,7 +50,7 @@ public class AppDbSeed
                 Nome = "Frasco Quadrado Gelo",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 1,
-                Foto = "/images/20.png",
+                Foto = "/images/4.png",
                 Preco = 65.00M,
             },
              new() {
@@ -58,7 +58,7 @@ public class AppDbSeed
                 Nome = "Aromatizador para Carros",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML",
                 CategoriaId = 2,
-                Foto = "/images/12.png",
+                Foto = "/images/5.png",
                 Preco = 15.00M,
             },
              new() {
@@ -66,7 +66,7 @@ public class AppDbSeed
                 Nome = "Frasco Estrela Marrom",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 1,
-                Foto = "/images/27.png",
+                Foto = "/images/16.png",
                 Preco = 85.00M,
             },
              new() {
@@ -74,7 +74,7 @@ public class AppDbSeed
                 Nome = "Frasco Champanhe",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 50ml",
                 CategoriaId = 1,
-                Foto = "/images/26.png",
+                Foto = "/images/15.png",
                 Preco = 30.00M,
             },
              new() {
@@ -82,7 +82,7 @@ public class AppDbSeed
                 Nome = "Frasco Color Redondo",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 1,
-                Foto = "/images/14.png",
+                Foto = "/images/6.png",
                 Preco = 85.00M,
             },
              new() {
@@ -90,7 +90,7 @@ public class AppDbSeed
                 Nome = "Sabonete Color Redondo",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 3,
-                Foto = "/images/4.png",
+                Foto = "/images/3.png",
                 Preco = 0,
             },
             new() {
@@ -106,7 +106,7 @@ public class AppDbSeed
                 Nome = "Garrafa Cinturinha",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML",
                 CategoriaId = 1,
-                Foto = "/images/25.png",
+                Foto = "/images/14.png",
                 Preco = 30.00M,
             },
             new() {
@@ -114,7 +114,7 @@ public class AppDbSeed
                 Nome = "Aromatizador Bola",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/33.png",
+                Foto = "/images/21.png",
                 Preco = 48.00M,
             },
             new() {
@@ -122,7 +122,7 @@ public class AppDbSeed
                 Nome = "Aromatizador Meia Lua",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/22.png",
+                Foto = "/images/12.png",
                 Preco = 65.00M,
             },
             new() {
@@ -130,7 +130,7 @@ public class AppDbSeed
                 Nome = "Aromatizador Quadrado Médio",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/31.png",
+                Foto = "/images/19.png",
                 Preco = 45.00M,
             },
             new() {
@@ -138,7 +138,7 @@ public class AppDbSeed
                 Nome = "Home Spray",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
                 CategoriaId = 4,
-                Foto = "/images/3.png",
+                Foto = "/images/2.png",
                 Preco = 0.00M,
             },
             new() {
@@ -146,7 +146,7 @@ public class AppDbSeed
                 Nome = "Água de Lençol",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
                 CategoriaId = 5,
-                Foto = "/images/18.png",
+                Foto = "/images/9.png",
                 Preco = 0.00M,
             },
         };
