@@ -56,7 +56,7 @@ public class AppDbSeed
              new() {
                 Id = 3,
                 Nome = "Aromatizador para Carros",
-                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 50ML",
+                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML",
                 CategoriaId = 2,
                 Foto = "/images/12.png",
                 Preco = 15.00M,
@@ -90,27 +90,19 @@ public class AppDbSeed
                 Nome = "Sabonete Color Redondo",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
                 CategoriaId = 3,
-                Foto = "/images/20.png",
+                Foto = "/images/4.png",
                 Preco = 0,
             },
             new() {
                 Id = 8,
                 Nome = "Sachê Perfumado",
-                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor. Consultar disponibilidade via whatsapp. Este produto contém ",
+                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor. Consultar disponibilidade via whatsapp.",
                 CategoriaId = 6,
                 Foto = "/images/1.png",
                 Preco = 07.00M,
             },
             new() {
                 Id = 9,
-                Nome = "Sachê Perfumado Grande",
-                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor. Consultar disponibilidade via whatsapp. Este produto contém ",
-                CategoriaId = 6,
-                Foto = "/images/1.png",
-                Preco = 07.00M,
-            },
-            new() {
-                Id = 10,
                 Nome = "Garrafa Cinturinha",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML",
                 CategoriaId = 1,
@@ -118,55 +110,70 @@ public class AppDbSeed
                 Preco = 30.00M,
             },
             new() {
-                Id = 11,
+                Id = 10,
                 Nome = "Aromatizador Bola",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/???.png",
+                Foto = "/images/33.png",
                 Preco = 48.00M,
             },
             new() {
-                Id = 12,
+                Id = 11,
                 Nome = "Aromatizador Meia Lua",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/????.png",
+                Foto = "/images/22.png",
                 Preco = 65.00M,
             },
             new() {
-                Id = 13,
-                Nome = "Aromatizador Quadrado Pequeno",
-                Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML",
-                CategoriaId = 1,
-                Foto = "/images/????.png",
-                Preco = 35.00M,
-            },
-            new() {
-                Id = 14,
+                Id = 12,
                 Nome = "Aromatizador Quadrado Médio",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
                 CategoriaId = 1,
-                Foto = "/images/????.png",
+                Foto = "/images/31.png",
                 Preco = 45.00M,
             },
             new() {
-                Id = 15,
+                Id = 13,
                 Nome = "Home Spray",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
                 CategoriaId = 4,
-                Foto = "/images/????.png",
+                Foto = "/images/3.png",
                 Preco = 0.00M,
             },
             new() {
-                Id = 16,
+                Id = 14,
                 Nome = "Água de Lençol",
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
                 CategoriaId = 5,
-                Foto = "/images/????.png",
-                Preco = 45.00M,
+                Foto = "/images/18.png",
+                Preco = 0.00M,
             },
         };
         builder.Entity<Produto>().HasData(produtos);
+
+
+        var role = Activator.CreateInstance<IdentityRole>();
+        role.Id = Guid.NewGuid().ToString();
+        role.Name = "Administrador";
+        role.NormalizedName = "ADMINISTRADOR";
+        builder.Entity<IdentityRole>().HasData(role);
+
+        var user = Activator.CreateInstance<IdentityUser>();
+        user.Id = Guid.NewGuid().ToString();
+        user.UserName = "Admin";
+        user.NormalizedUserName = "ADMIN";
+        user.Email = "admin@lunascimento.com.br";
+        user.NormalizedEmail = "ADMIN@LUNASCIMENTO.COM.BR";
+        user.EmailConfirmed = true;
+        PasswordHasher<IdentityUser> passwordHasher = new();
+        user.PasswordHash = passwordHasher.HashPassword(user, "@Lu123");
+        builder.Entity<IdentityUser>().HasData(user);
+
+        var userRole = Activator.CreateInstance<IdentityUserRole<string>>();
+        userRole.UserId = user.Id;
+        userRole.RoleId = role.Id;
+        builder.Entity<IdentityUserRole<string>>().HasData(userRole);
 
     }
 }

@@ -3,11 +3,12 @@
 }
 <!-- slider section -->
 <section class="slider_section ">
-   <div class="slider_bg_box">
-      <img src="~/images/Escolhaseuaroma.png" alt="">
-   </div>
    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+      <div class="slider_bg_box">
+         <img src="~/images/fundo.png" alt="">
+      </div>
       <div class="carousel-inner">
+
          <div class="carousel-item active">
             <div class="container ">
                <div class="row">
@@ -15,26 +16,27 @@
                      <div class="detail-box">
                         <h1>
                            <span>
-                              MONTE SEU FRASCO
+                              TEMOS DIFERENTES FRAGRÂNCIAS PARA SUA ESCOLHA
                            </span>
                            <br>
                         </h1>
                         <p>
-                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                           aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                           delectus repellat modi impedit sequi.
+                           AROMAS E AROMAS EXCLUSIVOS!!
                         </p>
                         <div class="btn-box">
-                           <a href="" class="btn1">
+                           <a asp-action="Products" class="btn1">
                               Compre Agora
                            </a>
                         </div>
                      </div>
                   </div>
+                  <div class="col-md-5 col-lg-6 ">
+                     <img src="~/images/carrossel1.png" alt="" class="img-fluid w-100">
+                  </div>
                </div>
             </div>
          </div>
-         
+
          <div class="carousel-item ">
             <div class="container ">
                <div class="row">
@@ -42,22 +44,22 @@
                      <div class="detail-box">
                         <h1>
                            <span>
-                              MONTE SEU FRASCO
+                              CONFIRA NOSSOS OUTROS PRODUTOS
                            </span>
                            <br>
-                           On Everything
                         </h1>
                         <p>
-                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                           aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                           delectus repellat modi impedit sequi.
+                           TEMOS SACHÊ PARA GUARDA ROUPA, HOME SPRAY, ÁGUA DE LENÇOL, AROMATIZADOR PARA CARROS.
                         </p>
                         <div class="btn-box">
-                           <a href="" class="btn1">
+                           <a asp-action="Outros" class="btn1">
                               Compre Agora
                            </a>
                         </div>
                      </div>
+                  </div>
+                  <div class="col-md-5 col-lg-6 ">
+                     <img src="~/images/carrossel2.png" alt="" class="img-fluid w-100">
                   </div>
                </div>
             </div>
@@ -69,25 +71,24 @@
                      <div class="detail-box">
                         <h1>
                            <span>
-                              MONTE SEU FRASCO
+                             DÚVIDAS SOBRE CADA AROMA?
                            </span>
                            <br>
-                           On Everything
                         </h1>
                         <p>
-                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                           aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                           delectus repellat modi impedit sequi.
+                           VEJA OS COMPONENTES DE CADA AROMA PARA AUXILIAR NA SUA COMPRA!
                         </p>
                         <div class="btn-box">
-                           <a href="" class="btn1">
-                              Compre Agora
+                           <a asp-action="Aromas" class="btn1">
+                              Confira
                            </a>
                         </div>
                      </div>
+                  </div><div class="col-md-5 col-lg-6 ">
+                     <img src="~/images/carrossel3.png" alt="" class="img-fluid w-100">
                   </div>
-               </div>
             </div>
+         </div>
          </div>
       </div>
       <div class="container">
@@ -104,57 +105,45 @@
 
 <!-- fotos  -->
 <section id="blog" class="blog_area pt-95 ">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-6 col-md-9">
-<div class="section_title text-center pb-25">
-<h4 class="title">Destaques</h4>
-<p></p>
-</div>
-</div>
-</div> 
-<div class="row justify-content-center">
-<div class="col-lg-4 col-md-7">
-<div class="single_blog mt-30">
-<div class="blog_image">
-<img src="~/images/aromatizador1.png" alt="blog">
-</div>
-<div class="blog_content">
-<div class="main_content">
-<h4 class="blog_title"><a asp-action="Products">Aromatizadores de Ambiente</a></h4>
-<p></p>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-md-7">
-<div class="single_blog mt-30">
-<div class="blog_image">
-<img src="~/images/aromatizador2.png" alt="blog">
-</div>
-<div class="blog_content">
-<div class="main_content">
-<h4 class="blog_title"><a asp-action="">Conheça nossos outros produtos</a></h4>
-<p></p>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-md-7">
-<div class="single_blog mt-30">
-<div class="blog_image">
-<img src="~/images/aromatizador3.png" alt="blog">
-</div>
-<div class="blog_content">
-<div class="main_content">
-<h4 class="blog_title"><a href="#">Temos Desconto 5% OFF</a></h4>
-<p></p>
-</div>
-</div>
-</div> 
-</div>
-</div> 
-</div> 
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-lg-6 col-md-9">
+            <div class="section_title text-center pb-25">
+               <h4 class="title">Destaques</h4>
+            </div>
+         </div>
+      </div>
+      <div class="row justify-content-center">
+         <div class="col-lg-4 col-md-7" style="border-radius: 30px; heigth:280px">
+            <div class="card mt-30" style="border-radius: 30px;">
+               <img class="card-img-top" src="~/images/aromatizador1.png" alt="blog" style="border-top-left-radius: 30px; border-top-right-radius: 30px;">
+               <div class="card-body" style="background-color: #fc6267; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;">
+                  <h5 class="card-title text-center">
+                     <a class="text-decoration-none text-white" asp-action="Products">Aromatizadores de Ambiente</a></h5>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-7" style="border-radius: 30px; heigth:280px">
+            <div class="card mt-30" style="border-radius: 30px;">
+               <img class="card-img-top" src="~/images/quemsomos.png" alt="blog" style="border-top-left-radius: 30px; border-top-right-radius: 30px;">
+               <div class="card-body" style="background-color: #fc6267; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;">
+                  <h5 class="card-title text-center">
+                     <a class="text-decoration-none text-white" asp-action="Quemsomos">Conheça Quem Somos</a></h5>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-7" style="border-radius: 30px; heigth:280px">
+            <div class="card mt-30" style="border-radius: 30px;">
+               <img class="card-img-top" src="~/images/aromatizador1.png" alt="blog" style="border-top-left-radius: 30px; border-top-right-radius: 30px;">
+               <div class="card-body" style="background-color: #fc6267; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;">
+                  <h5 class="card-title text-center">
+                     <a class="text-decoration-none text-white">Desconto Primeira Compra</a></h5>
+               </div>
+            </div>
+         </div>
+         </div>
+      </div>
+   </div>
 </section>
 <!-- end fotos  -->
 <section class="single_product_list">
@@ -165,16 +154,15 @@
                <div class="row align-items-center justify-content-between">
                   <div class="col-lg-6 col-sm-6">
                      <div class="single_product_img">
-                        <img src="img/single_product_1.png" class="img-fluid" alt="#">
-                        <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                        <img src="~/images/fotozap.png" alt="#" class="product_overlay img-fluid">
                      </div>
                   </div>
                   <div class="col-lg-5 col-sm-6">
                      <div class="single_product_content">
-                        <h2> <a> Conheça nossos
-                              principais produtos: os aromatizadores de ambiente
+                        <h2> <a> Sugestões ou reclamações?
                            </a> </h2>
-                        <a asp-action="Products" class="btn_3">Compre Já</a>
+                        <a href="https://wa.me/5514991619026?text=Tenho Dúvidas sobre os produtos!"
+                           class="btn_3">Compre Já</a>
                      </div>
                   </div>
                </div>
@@ -183,37 +171,18 @@
                <div class="row align-items-center justify-content-between">
                   <div class="col-lg-6 col-sm-6">
                      <div class="single_product_img">
-                        <img src="img/single_product_2.png" class="img-fluid" alt="#">
-                        <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                        <img src="~/images/fotoinsta.png" alt="#" class="product_overlay img-fluid">
                      </div>
                   </div>
                   <div class="col-lg-5 col-sm-6">
                      <div class="single_product_content">
-                        <h2> <a>Tem dúvidas sobre nossos
-                              aromas? 
-                        </a> </h2>
+                        <h2> <a>Conheça o Instragram da Marca
+                           </a> </h2>
                         <a asp-action="Products" class="btn_3">Clique Aqui</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="single_product_iner">
-               <div class="row align-items-center justify-content-between">
-                  <div class="col-lg-6 col-sm-6">
-                     <div class="single_product_img">
-                        <img src="img/single_product_3.png" class="img-fluid" alt="#">
-                        <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
-                     </div>
-                  </div>
-                  <div class="col-lg-5 col-sm-6">
-                     <div class="single_product_content">
-                        <h2> <a>Conheça a história da marca</a> </h2>
-                        <a asp-action="QuemSomos" class="btn_3">Explore</a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
 </section>
