@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LuNascimento.Models;
 
+[Table("Produto")]
 public class Produto
 {
     [Key]
@@ -26,7 +27,7 @@ public class Produto
     public string Foto { get; set; }
 
     [Required]
-    public int CategoriaId { get; set; }
+    public byte CategoriaId { get; set; }
     [ForeignKey("CategoriaId")]
     public Categoria Categoria { get; set; }
 }

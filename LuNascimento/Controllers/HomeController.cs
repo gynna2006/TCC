@@ -5,57 +5,64 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using LuNascimento.Data;
+using Microsoft.EntityFrameworkCore;
 
-namespace LuNascimento.Controllers
+namespace LuNascimento.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _context;
+
+    public HomeController(ILogger<HomeController> logger, AppDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
+        _logger = logger;
+        _context = context;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+    public IActionResult Index()
+    {
+        return View();
+    }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+    public IActionResult Products()
+    {
+        var aromatizantes = _context.Produtos.Where(p => p.CategoriaId == 1).ToList();
+        return View(aromatizantes);
+    }
 
-         public IActionResult Products()
-        {
-            return View();
-        }
+    public IActionResult Aromas()
+    {
+        return View();
+    }
+    public IActionResult Exclusivos()
+    {
+        return View();
+    }
+    public IActionResult Aromaterapia()
+    {
+        return View();
+    }
+    
+    public IActionResult Outros()
+    {
+        var outros = _context.Produtos.Where(p => p.CategoriaId != 1).ToList();
+        return View(outros);
+    }
 
-        public IActionResult Aromas()
-        {
-            return View();
-        }
-           public IActionResult Exclusivos()
-        {
-            return View();
-        }
-           public IActionResult Aromaterapia()
-        {
-            return View();
-        }           
-         public IActionResult Outros()
-        {
-            return View();
-        }
-         public IActionResult QuemSomos()
-        {
-            return View();
-        }
-        public IActionResult Detalhes()
-        {
-            return View();
-        }
+    public IActionResult QuemSomos()
+    {
+        return View();
+    }
+    public IActionResult Detalhes()
+    {
+        return View();
+    }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View("Error!");
     }
 }
