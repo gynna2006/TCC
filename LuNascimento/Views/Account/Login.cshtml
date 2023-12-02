@@ -5,9 +5,9 @@
 }
 
 <main class="container-fluid p-4">
-    <form method="post" asp-action="Login" asp-controller="Account">
+    <form method="post" asp-action="Login" asp-controller="Account" style="padding-top: 90px; padding-bottom: 100px;">
         <div class="text-center mb-4">
-            <img src="~/img/logorosa.png" alt="Logo" width="350">
+            <img src="~/images/logorosa.png" alt="Logo" width="350px">
         </div>
         <input type="hidden" asp-for="UrlRetorno">
         <div asp-validation-summary="ModelOnly" class="text-danger" hidden></div>
@@ -28,18 +28,8 @@
             <input type="checkbox" asp-for="Lembrar" class="form-check-input">
             <label asp-for="Lembrar" class="form-check-label"></label>
         </div>
-
-        <button type="submit" class="w-100 btn btn-primary">Entrar</button>
-
-        <a asp-action="" class="d-block text-center mt-3 text-decoration-none">Esqueceu sua Senha?</a>
-
-        <div class="separator">
-            <div class="line"></div>
-            <h6>Novo por Aqui?</h6>
-            <div class="line"></div>
-        </div>
-
-        <a asp-action="" class="w-100 btn btn-success mt-1">Criar Conta</a>
+<br>
+        <button type="submit" class="w-100 btn" style="background-color: #fc6267; color: white">Entrar</button>
 
     </form>
 </main>
