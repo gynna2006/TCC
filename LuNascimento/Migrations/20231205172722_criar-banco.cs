@@ -239,12 +239,12 @@ namespace LuNascimento.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d", "f409ebe6-8408-4b39-85bf-b6d8921b2de3", "Administrador", "ADMINISTRADOR" });
+                values: new object[] { "cc2b4dd9-5899-4233-a73a-2f9355a4c7f4", "4b06640b-90e4-4bea-b09e-0c271281c18e", "Administrador", "ADMINISTRADOR" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "5fc620ec-9d99-4569-8426-9a9f13672761", 0, "2493f2d0-8c77-4855-8137-c439478f22b2", "admin@lunascimento.com.br", true, false, null, "ADMIN@LUNASCIMENTO.COM.BR", "ADMIN", "AQAAAAEAACcQAAAAEJcA6jlD2himHg08S7T27Y2XF+a+fr9tXL7PvsQhPJOt09UypX+fdFZTJ1XNHbx2ow==", null, false, "805fb54d-12ba-4d6b-8816-34a61e783670", false, "Admin" });
+                values: new object[] { "c893bad4-7aa4-46b9-88aa-9f1b71ff455f", 0, "b44aba23-8881-486b-b4e0-22af60042bbf", "admin@lunascimento.com.br", true, false, null, "ADMIN@LUNASCIMENTO.COM.BR", "ADMIN", "AQAAAAEAACcQAAAAEH3jmwJ0Bzbr8G3Qob7CtZ4bYy+Xrmo+Cvi2tsRQ1NEkwbhpRFnozkqIiGBpY8AqXQ==", null, false, "7e86bc8a-f15e-4ade-bfa8-8211b02c4f3f", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "Categoria",
@@ -262,7 +262,7 @@ namespace LuNascimento.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d", "5fc620ec-9d99-4569-8426-9a9f13672761" });
+                values: new object[] { "cc2b4dd9-5899-4233-a73a-2f9355a4c7f4", "c893bad4-7aa4-46b9-88aa-9f1b71ff455f" });
 
             migrationBuilder.InsertData(
                 table: "Produto",
@@ -278,10 +278,10 @@ namespace LuNascimento.Migrations
                     { 7, (byte)3, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/3.png", "Sabonete Color Redondo (INDISPONÍVEL)", 0m },
                     { 8, (byte)6, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor. Consultar disponibilidade via whatsapp.", "/images/produtos/1.png", "Sachê Perfumado", 7.00m },
                     { 9, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.", "/images/produtos/14.png", "Garrafa Cinturinha", 30.00m },
-                    { 10, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/21.png", "Aromatizador Bola", 48.00m },
+                    { 10, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/21.png", "Aromatizador Bola", 95.00m },
                     { 11, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/12.png", "Aromatizador Meia Lua", 65.00m },
                     { 12, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.", "/images/produtos/19.png", "Aromatizador Quadrado Âmbar", 85.00m },
-                    { 13, (byte)4, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.", "/images/produtos/2.png", "Home Spray", 0.00m },
+                    { 13, (byte)4, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.", "/images/produtos/2.png", "Home Spray", 20.00m },
                     { 14, (byte)5, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.", "/images/produtos/9.png", "Água de Lençol", 30.00m },
                     { 15, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/7.png", "Vidro Estampa Cesta", 85.00m },
                     { 16, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/8.png", "Vidro Degradê", 95.00m },

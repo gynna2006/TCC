@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LuNascimento.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231205132723_criar-banco")]
+    [Migration("20231205172722_criar-banco")]
     partial class criarbanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -189,7 +189,7 @@ namespace LuNascimento.Migrations
                             Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/21.png",
                             Nome = "Aromatizador Bola",
-                            Preco = 48.00m
+                            Preco = 95.00m
                         },
                         new
                         {
@@ -216,7 +216,7 @@ namespace LuNascimento.Migrations
                             Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.",
                             Foto = "/images/produtos/2.png",
                             Nome = "Home Spray",
-                            Preco = 0.00m
+                            Preco = 20.00m
                         },
                         new
                         {
@@ -320,8 +320,8 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d",
-                            ConcurrencyStamp = "f409ebe6-8408-4b39-85bf-b6d8921b2de3",
+                            Id = "cc2b4dd9-5899-4233-a73a-2f9355a4c7f4",
+                            ConcurrencyStamp = "4b06640b-90e4-4bea-b09e-0c271281c18e",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         });
@@ -416,17 +416,17 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5fc620ec-9d99-4569-8426-9a9f13672761",
+                            Id = "c893bad4-7aa4-46b9-88aa-9f1b71ff455f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2493f2d0-8c77-4855-8137-c439478f22b2",
+                            ConcurrencyStamp = "b44aba23-8881-486b-b4e0-22af60042bbf",
                             Email = "admin@lunascimento.com.br",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LUNASCIMENTO.COM.BR",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJcA6jlD2himHg08S7T27Y2XF+a+fr9tXL7PvsQhPJOt09UypX+fdFZTJ1XNHbx2ow==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEH3jmwJ0Bzbr8G3Qob7CtZ4bYy+Xrmo+Cvi2tsRQ1NEkwbhpRFnozkqIiGBpY8AqXQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "805fb54d-12ba-4d6b-8816-34a61e783670",
+                            SecurityStamp = "7e86bc8a-f15e-4ade-bfa8-8211b02c4f3f",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         });
@@ -494,8 +494,8 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "5fc620ec-9d99-4569-8426-9a9f13672761",
-                            RoleId = "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d"
+                            UserId = "c893bad4-7aa4-46b9-88aa-9f1b71ff455f",
+                            RoleId = "cc2b4dd9-5899-4233-a73a-2f9355a4c7f4"
                         });
                 });
 

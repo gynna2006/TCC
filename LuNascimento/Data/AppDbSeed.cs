@@ -115,7 +115,7 @@ public class AppDbSeed
                 Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                 CategoriaId = 1,
                 Foto = "/images/produtos/21.png",
-                Preco = 48.00M,
+                Preco = 95.00M,
             },
             new() {
                 Id = 11,

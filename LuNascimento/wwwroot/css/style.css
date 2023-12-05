@@ -805,6 +805,9 @@ h3, .h3 {
 }
 
 /*Detalhes*/
+.bg-light {
+  background-color: #ffffff !important;
+}
 .ftco-section {
   padding: 7em 0;
   position: relative;
