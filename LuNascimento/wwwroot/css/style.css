@@ -827,7 +827,7 @@ h3, .h3 {
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
@@ -847,7 +847,7 @@ h4 {
 /*destaques*/
 /* footer section*/
 .footer_section {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   color: #ffffff;
   padding-top: 50px;
   text-align: left;
@@ -1028,7 +1028,7 @@ li.nav-item ul li a:hover, li.nav-item ul li a:focus {
 /** footer **/
 
 footer {
-    background: #fffbfb;
+    background: #ffffff;
     padding: 80px 0 50px;
 }
 

@@ -239,12 +239,12 @@ namespace LuNascimento.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "7b2f3a9e-e34b-4e88-abad-c3e12e67a810", "bd6406e9-9345-4224-8fb4-df8d14b63793", "Administrador", "ADMINISTRADOR" });
+                values: new object[] { "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d", "f409ebe6-8408-4b39-85bf-b6d8921b2de3", "Administrador", "ADMINISTRADOR" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "6bb5c224-e07d-4759-b5b9-7610ba40ca9a", 0, "865307d4-b72a-483a-be0a-e2e0168fdc33", "admin@lunascimento.com.br", true, false, null, "ADMIN@LUNASCIMENTO.COM.BR", "ADMIN", "AQAAAAEAACcQAAAAECyN3873QOTW+NzkK8+33dUoZz735uQt7TypeV9ZY6R0UMWe2S38IkQ9nkwYehe15Q==", null, false, "8aa10b45-92e2-4d2b-a872-a32ead726991", false, "Admin" });
+                values: new object[] { "5fc620ec-9d99-4569-8426-9a9f13672761", 0, "2493f2d0-8c77-4855-8137-c439478f22b2", "admin@lunascimento.com.br", true, false, null, "ADMIN@LUNASCIMENTO.COM.BR", "ADMIN", "AQAAAAEAACcQAAAAEJcA6jlD2himHg08S7T27Y2XF+a+fr9tXL7PvsQhPJOt09UypX+fdFZTJ1XNHbx2ow==", null, false, "805fb54d-12ba-4d6b-8816-34a61e783670", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "Categoria",
@@ -262,27 +262,34 @@ namespace LuNascimento.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "7b2f3a9e-e34b-4e88-abad-c3e12e67a810", "6bb5c224-e07d-4759-b5b9-7610ba40ca9a" });
+                values: new object[] { "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d", "5fc620ec-9d99-4569-8426-9a9f13672761" });
 
             migrationBuilder.InsertData(
                 table: "Produto",
                 columns: new[] { "Id", "CategoriaId", "Descricao", "Foto", "Nome", "Preco" },
                 values: new object[,]
                 {
-                    { 1, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml", "/images/produtos/10.png", "Frasco Quadrado Color", 85.00m },
-                    { 2, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml", "/images/produtos/4.png", "Frasco Quadrado Gelo", 65.00m },
-                    { 3, (byte)2, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML", "/images/produtos/5.png", "Aromatizador para Carros", 15.00m },
-                    { 4, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml", "/images/produtos/16.png", "Frasco Estrela Marrom", 85.00m },
-                    { 5, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 50ml", "/images/produtos/15.png", "Frasco Champanhe", 30.00m },
-                    { 6, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml", "/images/produtos/6.png", "Frasco Color Redondo", 85.00m },
-                    { 7, (byte)3, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml", "/images/produtos/3.png", "Sabonete Color Redondo", 0m },
+                    { 1, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/10.png", "Frasco Quadrado Color", 85.00m },
+                    { 2, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/4.png", "Frasco Quadrado Gelo", 65.00m },
+                    { 3, (byte)2, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML.", "/images/produtos/5.png", "Aromatizador para Carros", 15.00m },
+                    { 4, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/16.png", "Frasco Estrela Marrom", 85.00m },
+                    { 5, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 50ML.", "/images/produtos/15.png", "Frasco Champanhe", 30.00m },
+                    { 6, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/6.png", "Frasco Color Redondo", 85.00m },
+                    { 7, (byte)3, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/3.png", "Sabonete Color Redondo (INDISPONÍVEL)", 0m },
                     { 8, (byte)6, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor. Consultar disponibilidade via whatsapp.", "/images/produtos/1.png", "Sachê Perfumado", 7.00m },
-                    { 9, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML", "/images/produtos/14.png", "Garrafa Cinturinha", 30.00m },
-                    { 10, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML", "/images/produtos/21.png", "Aromatizador Bola", 48.00m },
-                    { 11, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML", "/images/produtos/12.png", "Aromatizador Meia Lua", 65.00m },
-                    { 12, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML", "/images/produtos/19.png", "Aromatizador Quadrado Médio", 45.00m },
-                    { 13, (byte)4, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML", "/images/produtos/2.png", "Home Spray", 0.00m },
-                    { 14, (byte)5, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML", "/images/produtos/9.png", "Água de Lençol", 0.00m }
+                    { 9, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.", "/images/produtos/14.png", "Garrafa Cinturinha", 30.00m },
+                    { 10, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/21.png", "Aromatizador Bola", 48.00m },
+                    { 11, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/12.png", "Aromatizador Meia Lua", 65.00m },
+                    { 12, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.", "/images/produtos/19.png", "Aromatizador Quadrado Âmbar", 85.00m },
+                    { 13, (byte)4, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.", "/images/produtos/2.png", "Home Spray", 0.00m },
+                    { 14, (byte)5, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.", "/images/produtos/9.png", "Água de Lençol", 30.00m },
+                    { 15, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/7.png", "Vidro Estampa Cesta", 85.00m },
+                    { 16, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/8.png", "Vidro Degradê", 95.00m },
+                    { 17, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/11.png", "Vidro Quadrado Gelo", 65.00m },
+                    { 18, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/13.png", "Vidro Âmbar Retangular", 95.00m },
+                    { 19, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/18.png", "Vidro Tribal", 85.00m },
+                    { 20, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 300ML.", "/images/produtos/17.png", "Vidro Lampião", 95.00m },
+                    { 21, (byte)1, "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.", "/images/produtos/20.png", "Vidro Bola", 79.00m }
                 });
 
             migrationBuilder.CreateIndex(

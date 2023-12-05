@@ -19,13 +19,14 @@
                <div class="box">
                   <div class="option_container">
                      <div class="options">                    
-                        <a asp-action="Detalhes" class="option2">
+                        <a asp-action="Detalhes" asp-route-id="@produto.Id" class="option2">
                            Compre Agora
                         </a>
                      </div>
                   </div>
                   <div class="img-box mb-5">
-                     <img src="@produto.Foto" alt="@produto.Nome" class="img-fluid">
+                     <img class="bd-placeholder-img card-img-top" width="100%" height="400"
+                        src="@produto.Foto" alt="@produto.Nome">
                   </div>
                   <div class="detail-box d-flex flex-column">
                      <h5>

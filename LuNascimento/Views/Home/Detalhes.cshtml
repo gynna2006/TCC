@@ -5,38 +5,24 @@
 <section class="ftco-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 mb-5 ftco-animate">
+			<div class="col-lg-5 mb-5 ftco-animate">
 				<a class="image-popup prod-img-bg">
-					<img src="@Model.Foto" class="img-fluid" alt="@Model.Nome"></a>
+					<img src="@Model.Foto" class="img-fluid" alt="@Model.Nome">
+				</a>
 			</div>
-			<div class="col-lg-6 product-details pl-md-5 ftco-animate">
-				<h3></h3>
-				<p class="price"><span>R$@Model.Preco</span></p>
-				<p></p>
-				<p></p>
-				<div class="row mt-4"> </div>
-				<div class="col-md-6">
-					<div class="w-100"></div>
-					<div class="input-group col-md-6 d-flex mb-3">
-					</div>
-					 <div class="col-md-12 tab-wrap">
-						<div class="tab-content bg-light" id="v-pills-tabContent">
-							<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
-								aria-labelledby="day-1-tab">
-								<div class="p-4">
-									<h3 class="mb-4">@Model.Nome</h3>
-									<p>@Model.Descricao</p>
-								</div>
+			<div class="col-lg-7 product-details pl-md-5 ftco-animate">
+				<div class="col-md-12 tab-wrap">
+					<div class="tab-content bg-light" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+							aria-labelledby="day-1-tab">
+							<div>
+								<h2 class="mb-4">@Model.Nome</h2>
+								<p>@Model.Descricao</p>
+								<p style="font-size:32px; color:red">R$ @Model.Preco</p>
 							</div>
-							<p><a href="https://wa.me/5514991619026?text=Quero Comprar um produto!" target="_blank"
-									class="btn btn-primary py-3 px-5">Compre Agora</a></p>
 						</div>
-					</div>
-					<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
-						<div class="p-4">
-							<h3 class="mb-4">???</h3>
-							<p>?</p>
-						</div>
+						<p><a href="https://wa.me/5514991619026?text=Quero Comprar um produto!" target="_blank"
+								class="btn btn-primary py-3 px-5">Compre Agora</a></p>
 					</div>
 				</div>
 			</div>

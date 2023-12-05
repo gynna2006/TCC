@@ -103,7 +103,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 1,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/10.png",
                             Nome = "Frasco Quadrado Color",
                             Preco = 85.00m
@@ -112,7 +112,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 2,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/4.png",
                             Nome = "Frasco Quadrado Gelo",
                             Preco = 65.00m
@@ -121,7 +121,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 3,
                             CategoriaId = (byte)2,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração. Consultar disponibilidade via whatsapp. Este produto contém 10ML.",
                             Foto = "/images/produtos/5.png",
                             Nome = "Aromatizador para Carros",
                             Preco = 15.00m
@@ -130,7 +130,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 4,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/16.png",
                             Nome = "Frasco Estrela Marrom",
                             Preco = 85.00m
@@ -139,7 +139,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 5,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 50ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 50ML.",
                             Foto = "/images/produtos/15.png",
                             Nome = "Frasco Champanhe",
                             Preco = 30.00m
@@ -148,7 +148,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 6,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/6.png",
                             Nome = "Frasco Color Redondo",
                             Preco = 85.00m
@@ -157,9 +157,9 @@ namespace LuNascimento.Migrations
                         {
                             Id = 7,
                             CategoriaId = (byte)3,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ml",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/3.png",
-                            Nome = "Sabonete Color Redondo",
+                            Nome = "Sabonete Color Redondo (INDISPONÍVEL)",
                             Preco = 0m
                         },
                         new
@@ -175,7 +175,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 9,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.",
                             Foto = "/images/produtos/14.png",
                             Nome = "Garrafa Cinturinha",
                             Preco = 30.00m
@@ -184,7 +184,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 10,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/21.png",
                             Nome = "Aromatizador Bola",
                             Preco = 48.00m
@@ -193,7 +193,7 @@ namespace LuNascimento.Migrations
                         {
                             Id = 11,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
                             Foto = "/images/produtos/12.png",
                             Nome = "Aromatizador Meia Lua",
                             Preco = 65.00m
@@ -202,16 +202,16 @@ namespace LuNascimento.Migrations
                         {
                             Id = 12,
                             CategoriaId = (byte)1,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.",
                             Foto = "/images/produtos/19.png",
-                            Nome = "Aromatizador Quadrado Médio",
-                            Preco = 45.00m
+                            Nome = "Aromatizador Quadrado Âmbar",
+                            Preco = 85.00m
                         },
                         new
                         {
                             Id = 13,
                             CategoriaId = (byte)4,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 100ML.",
                             Foto = "/images/produtos/2.png",
                             Nome = "Home Spray",
                             Preco = 0.00m
@@ -220,10 +220,73 @@ namespace LuNascimento.Migrations
                         {
                             Id = 14,
                             CategoriaId = (byte)5,
-                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 0ML",
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 150ML.",
                             Foto = "/images/produtos/9.png",
                             Nome = "Água de Lençol",
-                            Preco = 0.00m
+                            Preco = 30.00m
+                        },
+                        new
+                        {
+                            Id = 15,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/7.png",
+                            Nome = "Vidro Estampa Cesta",
+                            Preco = 85.00m
+                        },
+                        new
+                        {
+                            Id = 16,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/8.png",
+                            Nome = "Vidro Degradê",
+                            Preco = 95.00m
+                        },
+                        new
+                        {
+                            Id = 17,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/11.png",
+                            Nome = "Vidro Quadrado Gelo",
+                            Preco = 65.00m
+                        },
+                        new
+                        {
+                            Id = 18,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/13.png",
+                            Nome = "Vidro Âmbar Retangular",
+                            Preco = 95.00m
+                        },
+                        new
+                        {
+                            Id = 19,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/18.png",
+                            Nome = "Vidro Tribal",
+                            Preco = 85.00m
+                        },
+                        new
+                        {
+                            Id = 20,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 300ML.",
+                            Foto = "/images/produtos/17.png",
+                            Nome = "Vidro Lampião",
+                            Preco = 95.00m
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CategoriaId = (byte)1,
+                            Descricao = "Por sermos uma marca artesanal, os produtos mostrados podem estar sujeitos a alteração na cor e decoração. Consultar disponibilidade via whatsapp. Este produto contém 250ML.",
+                            Foto = "/images/produtos/20.png",
+                            Nome = "Vidro Bola",
+                            Preco = 79.00m
                         });
                 });
 
@@ -255,8 +318,8 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "7b2f3a9e-e34b-4e88-abad-c3e12e67a810",
-                            ConcurrencyStamp = "bd6406e9-9345-4224-8fb4-df8d14b63793",
+                            Id = "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d",
+                            ConcurrencyStamp = "f409ebe6-8408-4b39-85bf-b6d8921b2de3",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         });
@@ -351,17 +414,17 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "6bb5c224-e07d-4759-b5b9-7610ba40ca9a",
+                            Id = "5fc620ec-9d99-4569-8426-9a9f13672761",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "865307d4-b72a-483a-be0a-e2e0168fdc33",
+                            ConcurrencyStamp = "2493f2d0-8c77-4855-8137-c439478f22b2",
                             Email = "admin@lunascimento.com.br",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LUNASCIMENTO.COM.BR",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAECyN3873QOTW+NzkK8+33dUoZz735uQt7TypeV9ZY6R0UMWe2S38IkQ9nkwYehe15Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJcA6jlD2himHg08S7T27Y2XF+a+fr9tXL7PvsQhPJOt09UypX+fdFZTJ1XNHbx2ow==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8aa10b45-92e2-4d2b-a872-a32ead726991",
+                            SecurityStamp = "805fb54d-12ba-4d6b-8816-34a61e783670",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         });
@@ -429,8 +492,8 @@ namespace LuNascimento.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "6bb5c224-e07d-4759-b5b9-7610ba40ca9a",
-                            RoleId = "7b2f3a9e-e34b-4e88-abad-c3e12e67a810"
+                            UserId = "5fc620ec-9d99-4569-8426-9a9f13672761",
+                            RoleId = "9b7109a8-6bd2-4236-8e73-09b6c0ae2d5d"
                         });
                 });
 

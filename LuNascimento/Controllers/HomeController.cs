@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using LuNascimento.Data;
+using LuNascimento.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LuNascimento.Controllers;
@@ -26,9 +27,11 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Products()
+    public IActionResult Products(int ? id)
     {
-        var aromatizantes = _context.Produtos.Where(p => p.CategoriaId == 1).ToList();
+        var aromatizantes = _context.Produtos
+        .Where(p => p.CategoriaId == 1).ToList();
+
         return View(aromatizantes);
     }
 
@@ -55,9 +58,11 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Detalhes()
+
+    public IActionResult Detalhes(int id)
     {
-        return View();
+        var produto = _context.Produtos.Where(p => p.Id == id).SingleOrDefault();
+        return View(produto);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

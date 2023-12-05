@@ -27,6 +27,7 @@ public class Produto
     public string Foto { get; set; }
 
     [Required]
+    [Display(Name = "Categoria")]
     public byte CategoriaId { get; set; }
     [ForeignKey("CategoriaId")]
     public Categoria Categoria { get; set; }
